@@ -9,23 +9,23 @@ class Middleware:
         response= self.get_response(request)  
 
         api_request = {
-            "Server_Infromation": self.server.get_info(),
-            "Request": {
-                "Scheme": request.scheme,
-                "Path": request.path,
-                "Path_Information" : request.path_info,
-                "Method": request.method,
-                "Encoding": request.encoding,
-                "Content_Type": request.content_type,
-                "Content_Params": request.content_params,
-                "Host": request.get_host(),
-                "Meta" : request.META,
-                "Headers": request.headers,
-                "Body": request.body,
+            "server_info": self.server.get_info(),
+            "request": {
+                "url_scheme": request.scheme,
+                "path": request.path,
+                "path_information" : request.path_info,
+                "method": request.method,
+                "encoding": request.encoding,
+                "content_type": request.content_type,
+                "content_params": request.content_params,
+                "host": request.get_host(),
+                "meta" : request.META,
+                "headers": request.headers,
+                "body": request.body,
             },
-            "Response":{
-                "Headers": response.headers if "headers" in response else response,
-                "Content": response.content
+            "response":{
+                "headers": response.headers if "headers" in response else response,
+                "content": response.content
             },           
         } 
         print(api_request)
