@@ -1,12 +1,11 @@
 Metadata-Version: 2.1
 Name: srivastav
-Version: 0.0.2
+Version: 0.0.3
 Summary: Downalerts django Middleware 
 Home-page: https://github.com/downalerts/django-logger
 Author: Aman Srivastav
 Author-email: amansrivastav.bytequests@gmail.com
 License: BSD 2-clause
-Platform: UNKNOWN
 Classifier: Development Status :: 1 - Planning
 Classifier: Intended Audience :: Science/Research
 Classifier: License :: OSI Approved :: BSD License
@@ -14,6 +13,3 @@ Classifier: Operating System :: POSIX :: Linux
 Classifier: Programming Language :: Python :: 3.5
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
-
-UNKNOWN
-
