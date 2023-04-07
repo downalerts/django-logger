@@ -1,0 +1,9 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/kamal.egg-info/PKG-INFO
+src/kamal.egg-info/SOURCES.txt
+src/kamal.egg-info/dependency_links.txt
+src/kamal.egg-info/top_level.txt
+src/srivastav/__init__.py
+src/srivastav/middleware.py

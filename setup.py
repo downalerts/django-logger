@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name='srivastav',
-    version='0.0.2',    
+    name='kamal',
+    version='0.0.3',    
     description='Downalerts django Middleware ',
     url='https://github.com/downalerts/django-logger',
     author='Aman Srivastav',
