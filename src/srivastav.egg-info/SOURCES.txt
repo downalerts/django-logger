@@ -2,6 +2,7 @@ pyproject.toml
 setup.cfg
 setup.py
 src/srivastav/__init__.py
+src/srivastav/api.py
 src/srivastav/conversion.py
 src/srivastav/middleware.py
 src/srivastav/server_info.py
